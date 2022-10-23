@@ -3,8 +3,9 @@
 
 #include<iostream>
 #include<string>
-#include "lista.h"
+
 #include "cancion.h"
+#include "lista.h"
 
 
 class MenuCanciones

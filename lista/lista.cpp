@@ -11,6 +11,12 @@ Lista <T, tamanio> :: Lista() {
 }
 
 template <class T, int tamanio>
+Lista<T, tamanio>::~Lista()
+{
+    //dtor
+}
+
+template <class T, int tamanio>
 bool Lista <T, tamanio> :: isEmpty(){
     return last == -1;
 }
@@ -23,7 +29,7 @@ bool Lista <T, tamanio> :: isFull(){
 template <class T, int tamanio>
 void Lista <T, tamanio> :: agregaElemento(int posicion, T& t){
     if(isFull()){
-        cout << "Lista llena o posicion mayor al tama–o" << endl;
+        cout << "Lista llena o posicion mayor al tamaï¿½o" << endl;
         return;
     }
     int i = last + 1;
@@ -118,13 +124,13 @@ int Lista<T, tamanio> :: findLinear(const T& e)const{
     //     i++;
     // }
     // return -1;
-    // cout<< "Canci—n a buscar: ";
+    // cout<< "Canciï¿½n a buscar: ";
     // getline(cin, toFind);
     // cancion.getMp3(toFind);
     // int find;
     // find = ListaC.findLinear(cancion);
     // if (find == -1){
-    //     cout << "Esa canci—n no se encuentra" << endl;
+    //     cout << "Esa canciï¿½n no se encuentra" << endl;
     // }
     // else{
     //     cout << "La cancion con nombre: " << toFind << "Se encuentra en la posicion: " << find << endl;
@@ -155,7 +161,3 @@ int Lista<T, tamanio> :: findBinary(const T& e) const{
 // string toFind;
 
 
-Lista::~Lista()
-{
-    //dtor
-}

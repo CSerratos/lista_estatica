@@ -13,7 +13,15 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="C:/Users/aldo/Projects/lista_estatica/cancion" />
+					<Add directory="C:/Users/aldo/Projects/lista_estatica/lista" />
+					<Add directory="C:/Users/aldo/Projects/lista_estatica/menucanciones" />
 				</Compiler>
+				<Linker>
+					<Add directory="C:/Users/aldo/Projects/lista_estatica/cancion" />
+					<Add directory="C:/Users/aldo/Projects/lista_estatica/lista" />
+					<Add directory="C:/Users/aldo/Projects/lista_estatica/menucanciones" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/lista_estatica" prefix_auto="1" extension_auto="1" />
@@ -22,6 +30,10 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="C:/Users/aldo/Projects/lista_estatica/test" />
+					<Add directory="C:/Users/aldo/Projects/lista_estatica/cancion" />
+					<Add directory="C:/Users/aldo/Projects/lista_estatica/lista" />
+					<Add directory="C:/Users/aldo/Projects/lista_estatica/menucanciones" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -30,7 +42,15 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="cancion" />
+			<Add directory="lista" />
+			<Add directory="menucanciones" />
 		</Compiler>
+		<Linker>
+			<Add directory="cancion" />
+			<Add directory="lista" />
+			<Add directory="menucanciones" />
+		</Linker>
 		<Unit filename="cancion/cancion.cpp" />
 		<Unit filename="cancion/cancion.h" />
 		<Unit filename="lista/lista.cpp" />
@@ -39,10 +59,8 @@
 		<Unit filename="menucanciones/menucanciones.cpp" />
 		<Unit filename="menucanciones/menucanciones.h" />
 		<Extensions>
-			<envvars />
-			<code_completion />
+			<editor_config active="1" use_tabs="0" tab_indents="1" tab_width="4" indent="4" eol_mode="0" />
 			<lib_finder disable_auto="1" />
-			<debugger />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

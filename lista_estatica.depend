@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1666562782 source:c:\users\aldo\projects\lista_estatica\cancion\cancion.cpp
+	<iostream>
+	<string>
+	"cancion.h"
+
+1666561404 c:\users\aldo\projects\lista_estatica\cancion\cancion.h
+	<iostream>
+	<string>
+
+1666563904 source:c:\users\aldo\projects\lista_estatica\main.cpp
+	<iostream>
+	"menucanciones.h"
+
+1666563964 c:\users\aldo\projects\lista_estatica\menucanciones\menucanciones.h
+	<iostream>
+	<string>
+	"cancion.h"
+	"lista.h"
+
+1666561712 c:\users\aldo\projects\lista_estatica\lista\lista.h
+
+1666564285 source:c:\users\aldo\projects\lista_estatica\menucanciones\menucanciones.cpp
+	<iostream>
+	<string>
+	"menucanciones.h"
+	"lista.cpp"
+
+1666561702 source:c:\users\aldo\projects\lista_estatica\lista\lista.cpp
+	<iostream>
+	<string>
+	"lista.h"
+
+1666556897 source:c:\users\aldo\projects\lista_estatica\cancion\cancion.h
+	<iostream>
+	<string>
+
+1666556897 source:c:\users\aldo\projects\lista_estatica\lista\lista.h
+
+1666559914 source:c:\users\aldo\projects\lista_estatica\menucanciones\menucanciones.h
+	<iostream>
+	<string>
+	"lista.h"
+	"cancion.h"
+
+1666561702 c:\users\aldo\projects\lista_estatica\lista\lista.cpp
+	<iostream>
+	<string>
+	"lista.h"
+
